@@ -52,6 +52,9 @@ class _ContactFormState extends State<ContactForm> {
           'A FRIENDLY ALERT',
           style: style14,
         ),
+        backgroundColor: widget.useLightMode
+            ? AppColors.scaffoldColorBright
+            : AppColors.appBarColor,
         content: SelectableText(
             'I have currently disabled the mailing system. Please copy the message and email it to lungelobn@gmail.com. Thank you for your support:\n\n ${formData.subject} \n\n Dear Bonga, \n\n ${formData.message} \n\n My email address is: ${formData.email} \n\n Kind Regards, \n ${formData.username}',
             style: style14),
