@@ -76,7 +76,7 @@ class _ContactFormState extends State<ContactForm> {
   Widget build(BuildContext context) {
     FormData formData =
         FormData(email: '', message: '', username: '', subject: '');
-    String _emailErrorText;
+    String emailErrorText;
 
     bool isEmailValid(String email) {
       // Basic email validation using regex
@@ -90,23 +90,23 @@ class _ContactFormState extends State<ContactForm> {
       style14 = AppStyles.s14;
     }
 
-    void _validateEmail(String value) {
+    void validateEmail(String value) {
       if (value.isEmpty) {
         setState(() {
-          _emailErrorText = 'Email is required';
+          emailErrorText = 'Email is required';
         });
       } else if (!isEmailValid(value)) {
         setState(() {
-          _emailErrorText = 'Enter a valid email address';
+          emailErrorText = 'Enter a valid email address';
         });
       } else {
         setState(() {
-          _emailErrorText = '';
+          emailErrorText = '';
         });
       }
     }
 
-    Future<void> _sendEmail(
+    Future<void> sendEmail(
       BuildContext context,
       FormData formData,
     ) async {

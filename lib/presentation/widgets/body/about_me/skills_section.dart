@@ -3,7 +3,6 @@ import 'package:portfolio/presentation/widgets/body/about_me/compsci_skills_grid
 import 'package:portfolio/presentation/widgets/body/about_me/eleceng_skills_grid.dart';
 import 'package:portfolio/presentation/widgets/body/about_me/physics_skills_grid.dart';
 
-import '../../../../core/utils/app_strings.dart';
 import '../../../../core/utils/app_styles.dart';
 
 import 'compeng_skills_grid.dart';

@@ -2,7 +2,7 @@ abstract class AppStrings {
   static const String developerName = 'Bonga Njamela';
   static const String helloIM = 'Hello, I’m';
   static const String introMsg =
-      "A BSc Applied Mathematics and Physics graduate who is currently completing his final year in Electrical and Computer Engineering, at the University of Cape Town. Thank you for taking the time to look at my extensive repertoire of projects showcasing my engineering identity.";
+      "A BSc(Eng) graduate in Electrical and Computer Engineering from the University of Cape Town, with a previous degree in Applied Mathematics and Physics. Thank you for taking the time to look at my extensive repertoire of projects showcasing my engineering identity.";
   static String aboutMeMsg =
       "My name is an instruction to 'be grateful', and over the years I have come to understand what that means to me through my pursuit of knowledge, as well as being the eldest son and brother to my family. Firstly, I would like to express my gratitude to you for taking the time to explore my portfolio. I am also grateful for the opportunity to have applied the patience to acquire a set of skills to become a good engineer. Ultimately, I am grateful to be an engineer because I can use my abilities and knowledge to fulfill my responsibilities to society.";
   static const String numOfExperience = '50+';
@@ -11,7 +11,7 @@ abstract class AppStrings {
   static const String servicesIOffer = 'Computer Science & Engineering Skills:';
   static const String featuredProjects = 'Highlighted Projects';
   static const String projectsMsg =
-      "I am currently working on my final year Research Project. The title of the project is 'Quantum Computer Emulated on FPGA' as it involves a the design and simulation of quantum-classical interface, hardware acceleration and an in-depth study of quantum computing algorithms.I have recently completed an C/C++ OpenCL Matrix Multiplication project for vector multiplication on heterogeneous systems. I have also completed a Machine Learning project called the Simple Component Identification System for Symbolic Object Recognition (SCISSOR) for electronic circuit component recognition. These projects are listed below among many others.";
+      "I have recently completed my final year Research Project. The title of the project is 'Quantum Computer Emulated on FPGA' as it involved the design and simulation of a quantum-classical interface, hardware acceleration and an in-depth study of quantum computing algorithms. I have also recently completed a C/C++ OpenCL Matrix Multiplication project for vector multiplication on heterogeneous systems. I have also completed a Machine Learning project called the Simple Component Identification System for Symbolic Object Recognition (SCISSOR) for electronic circuit component recognition. These projects are listed below among many others.";
   static const String contactMsg =
       "For further information, please feel to contact me. You can also view my CV by clicking on the book icon. I am looking forward to hearing from you. Thank you.";
   static const String contactWithMe = 'Contact me';

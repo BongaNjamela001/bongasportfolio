@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:portfolio/bongasportfolio.dart';
-import 'package:portfolio/core/utils/app_styles.dart';
 
 import '../../../core/utils/app_enums.dart';
 import '../../../core/utils/app_extensions.dart';

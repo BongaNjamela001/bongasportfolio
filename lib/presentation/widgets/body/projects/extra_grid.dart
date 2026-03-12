@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
-import 'package:portfolio/presentation/widgets/body/projects/experience_item.dart';
 import 'package:portfolio/presentation/widgets/body/projects/extra_item.dart';
 
 import '../../../../core/utils/app_constants.dart';
